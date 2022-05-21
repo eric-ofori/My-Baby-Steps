@@ -1,0 +1,17 @@
+#!/bin/bash
+#script to compare two numbers
+
+var1=a
+var2=b
+
+if [ $var2 -gt $var1 ]
+	then
+		echo "$var2 is greater than $var1"
+fi
+
+#second comparison
+
+if [ $var1 -eq $var2 ]
+	then
+		echo "$var1 is equal to $var2"
+fi
